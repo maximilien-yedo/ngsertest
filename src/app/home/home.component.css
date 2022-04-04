@@ -1,0 +1,122 @@
+mat-sidenav{
+  width: 264px;
+  background-color: #025C2F;
+  border: none;
+  color: white;
+}
+
+mat-sidenav-content
+{
+  background-color: white;
+  height: 100vh;
+}
+.img_logo{
+  /* Layout Properties */
+  position: relative;
+  top: 30px;
+  left: 98px;
+  width: 68px;
+  height: 67px;
+  opacity: 1;
+}
+.geswal{
+  text-align: left;
+  position: relative;
+  width: 264px;
+  height: 60px;
+  top: 90px;
+  line-height: 60px;
+}
+.icon{
+  margin-left: 10px;
+}
+.lgeswal{
+  padding-left: 10px;
+  width: 114px;
+  height: 21px;
+  text-decoration: none;
+  text-align: left;
+  font: normal normal normal 18px/30px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.encours{
+  display: block;
+}
+.terminer{
+  display: none;
+}
+mat-sidenav ul{
+  position: relative;
+  width: 264px;
+  height: 60px;
+  line-height: 60px;
+  text-decoration: none;
+  list-style-type: none;
+}
+mat-sidenav ul li{
+  margin-left: 17.5px;
+  top: 491px;
+  width: auto;
+  height: auto;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 16px/30px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+mat-sidenav ul li:hover{
+  background-color: green;
+}
+.iconUser{
+  margin-left:15px;
+  top: 96px;
+  width: 31px;
+  height: 31px;
+}
+.operation{
+  display: inline-flex;
+  position: relative;
+  top: 100px;
+  margin-left: 28px;
+  width: 224px;
+  height: 119px;
+
+  /* UI Properties */
+  border-radius: 8px;
+}
+.iconMenu{
+  position: relative;
+  top: 17px;
+  left: 10px;
+  width: 42px;
+  height: 42px;
+  opacity: 1;
+}
+.lmenu{
+  position: relative;
+  top: 15px;
+  left: 10px;
+  width: 30px;
+  height: 49px;
+
+  /* UI Properties */
+
+  text-align: left;
+  font: normal normal bold 20px/25px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.Vplus{
+  position: relative;
+  top: 85px;
+  left: 15px;
+  width: 28px;
+  height: 28px;
+
+  /* UI Properties */
+  opacity: 1;
+}

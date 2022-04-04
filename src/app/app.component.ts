@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'projet';
+  survoler:boolean = true;
+
+  constructor() {
+
+  }
+
+  ngOnInit(): void {
+  }
+  survol(){
+    this.survoler = !this.survoler;
+    console.log(this.survoler);
+  }
 }
