@@ -22,5 +22,8 @@ export class GestionWalletComponent implements OnInit {
     this.survoler = !this.survoler;
     console.log(this.survoler);
   }
+  onclick(){
+    this.clicker = !this.clicker;
+  }
 
 }

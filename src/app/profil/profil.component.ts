@@ -14,6 +14,9 @@ export class ProfilComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onclick(){
+    this.clicker = !this.clicker;
+  }
   Onmodif(){
     this.clicker = !this.clicker
   }

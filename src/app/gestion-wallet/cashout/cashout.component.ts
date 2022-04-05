@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CashoutComponent implements OnInit {
 
+  clicker:any;
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onclick(){
+    this.clicker = !this.clicker;
   }
 
 }

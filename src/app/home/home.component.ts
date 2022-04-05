@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent{
   survoler:boolean = true;
-
+  clicker:any;
   constructor() {
 
   }
@@ -16,7 +16,9 @@ export class HomeComponent{
   }
   survol(){
     this.survoler = !this.survoler;
-    console.log(this.survoler);
+  }
+  onclick(){
+    this.clicker = !this.clicker;
   }
 
 }

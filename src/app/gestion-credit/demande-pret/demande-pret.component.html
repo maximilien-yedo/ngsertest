@@ -8,7 +8,7 @@
         <path id="Tracé_2443" data-name="Tracé 2443" d="M573.936,177.591H563.647l-.007-.031c.411-.114.821-.23,1.232-.341l7-1.906a1.273,1.273,0,0,1,1.718.977C573.7,176.715,573.816,177.143,573.936,177.591Z" transform="translate(-555.389 -173.507)" fill="#fff"/>
         <path id="Tracé_2444" data-name="Tracé 2444" d="M300.38,68.942c.049-.028.1-.058.147-.083l7.654-3.793a1.235,1.235,0,0,1,1.632.3,11.17,11.17,0,0,1,.638,1.168c-.486.133-.933.259-1.381.381-2.465.673-4.927,1.358-7.4,2.008a6.48,6.48,0,0,1-1.278.081C300.39,68.984,300.385,68.964,300.38,68.942Z" transform="translate(-296.267 -64.891)" fill="#fff"/>
       </svg>
-      <a routerLink="/wallet" class="lgeswal">Gestion de wallet</a>
+      <a routerLink="/home" class="lgeswal">Tableau de bord</a>
     </div>
     <div class="geswal">
       <svg class="icon" [ngStyle]="{'margin-top.px': -5}" xmlns="http://www.w3.org/2000/svg" width="24.153" height="24.157" viewBox="0 0 24.153 24.157">
@@ -18,7 +18,7 @@
           <path id="Tracé_2449" data-name="Tracé 2449" d="M778.727,532.971h-2.873c-.287,0-.334-.046-.336-.324,0-.463,0-.927,0-1.39,0-.221.091-.307.311-.307q2.909.006,5.818,0c.215,0,.318.075.314.3q-.014.707,0,1.413c0,.225-.092.308-.31.307C780.675,532.968,779.7,532.971,778.727,532.971Z" transform="translate(-763.038 -522.502)" fill="#fff"/>
         </g>
       </svg>
-      <a routerLink="/home" class="lgeswal">Accueil wallet</a>
+      <a routerLink="/credit" class="lgeswal">Accueil credit</a>
     </div>
     <div class="geswal">
       <svg class="icon" [ngStyle]="{'margin-top.px': -5}" xmlns="http://www.w3.org/2000/svg" width="20.385" height="24.578" viewBox="0 0 20.385 24.578">
@@ -27,7 +27,7 @@
           <path id="Tracé_19797" data-name="Tracé 19797" d="M637.384,744.026h2.12v1.191h-2.12v3.077H635.72V741.22h3.9v1.2h-2.239Z" transform="translate(-627.479 -729.106)" fill="#017038"/>
         </g>
       </svg>
-      <a routerLink="/cashin" class="lgeswal">Cash In IRIS</a>
+      <a routerLink="/souscription" class="lgeswal">Souscription</a>
     </div>
     <div class="geswal">
       <svg class="icon" [ngStyle]="{'margin-top.px': -5}" xmlns="http://www.w3.org/2000/svg" width="20.698" height="23.55" viewBox="0 0 20.698 23.55">
@@ -44,7 +44,7 @@
           </g>
         </g>
       </svg>
-      <a routerLink="/cashout" class="lgeswal">Cash Out IRIS</a>
+      <a routerLink="/pret" class="lgeswal">Demande de prêt</a>
     </div>
 
   </mat-sidenav>
@@ -53,24 +53,58 @@
         <!-- As a heading -->
         <nav class="navbar" [ngStyle]="{'background': '#E4E4E4 0% 0% no-repeat padding-box'}">
           <div class="container-fluid " [ngStyle]="{'backgroung':'#F2F2F2 0% 0% no-repeat padding-box','top.px': 0,'left.px': 264,'width.px': 1102,'height.px': 84}">
-            <span [ngStyle]="{'font-family':'Helvetica Neue, 65 Medium','font-size.px':18,'color':'#343A40','margin-left.px':18}">Gestionnaire de wallet</span>
-            <a routerLink="/profil"><div  [ngStyle]="{'top.px': 3, 'left.px': 999,'width.px': 331,'height.px': 78,'background': '#E4E4E4 0% 0% no-repeat padding-box'}">
+            <span [ngStyle]="{'font-family':'Helvetica Neue, 65 Medium','font-size.px':18,'color':'#343A40','margin-left.px':18}">DEMANDER UN CREDIT</span>
+            <div  [ngStyle]="{'top.px': 3, 'left.px': 999,'width.px': 331,'height.px': 78,'background': '#E4E4E4 0% 0% no-repeat padding-box'}">
               <div [ngStyle]="{'display':'inline-flex','margin.px':14, 'left.px': 1027,'width.px': 285,'height.px': 50}">
                 <img src="" [ngStyle]="{'border-radius':'50%','top.px': 17,'left.px': 1027,'width.px': 50,'height.px': 50,'border': '1px solid #565A5E'}">
                 <div [ngStyle]="{'width.px':176,'height.px': 42}">
-                  <p [ngStyle]="{'margin-left.px':14,'position':'relative','text-align': 'left','font': 'normal normal 300 18px/30px Helvetica Neue','letter-spacing.px': 0,'color': '#343A40','opacity': 1}">Kouakou Jonas</p>
-                  <p [ngStyle]="{'margin-left.px':14, 'margin-top.px':-10,'left.px': 1095,'text-align': 'left','font': 'normal normal medium 18px/30px Helvetica Neue','letter-spacing.px': 0,'color': '#343A40','opacity': 1}">Poste - Nom agence</p>
+                  <p [ngStyle]="{'margin-left.px':14,'position':'relative','text-align': 'left','font': 'normal normal 300 18px/30px Helvetica Neue','letter-spacing.px': 0,'color': '#343A40'}">Kouakou Jonas</p>
+                  <p [ngStyle]="{'margin-left.px':14, 'margin-top.px':-10,'left.px': 1095,'text-align': 'left','font': 'normal normal medium 18px/30px Helvetica Neue','letter-spacing.px': 0,'color': '#343A40'}">Poste - Nom agence</p>
                 </div>
-                <div [ngStyle]="{'width.px':30,'height.px': 42,'margin-top.px':5}">
+                <div (click)="onclick()" [ngStyle]="{'width.px':30,'height.px': 42,'margin-top.px':5}">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24.971" height="17.165" viewBox="0 0 24.971 17.165">
                     <path id="Tracé_2450" data-name="Tracé 2450" d="M536.667,367.6l13.146,9.263-12.789,11.213" transform="matrix(-0.017, 1, -1, -0.017, 399.755, -527.685)" fill="none" stroke="#343a40" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
                   </svg>
                 </div>
               </div>
-            </div></a>
+            </div>
           </div>
         </nav>
+        <div [ngClass]="{encours:clicker,terminer:!clicker}" [ngStyle]="{'z-index':1 ,'position': 'relative','top.px': 0,'width.px': 331,'height.px': 78,'background': '#E4E4E4 0% 0% no-repeat padding-box','float':'right'}">
+          <a routerLink="/profil">
+          <div style="display:inline-flex;width: 330px;height: 63px;background: #F2F2F2 0% 0% no-repeat padding-box;border: 1px solid #C9C7C7;">
+            <img style="top: 9px;position:relative;left: 20px;width: 31px;height: 31px;" src="assets/profile-user (1).png" alt="">
+            <p style="line-height:30px;position:relative;top: 10px;left: 30px;width: 43px;height: 22px;text-align: left;font: normal normal medium 18px/30px Helvetica Neue;letter-spacing: 0px;color: #343A40;">Profile</p>
+          </div>
+          </a>
+          <div style="display:inline-flex;width: 330px;height: 63px;background: #F2F2F2 0% 0% no-repeat padding-box;border: 1px solid #C9C7C7;">
+            <svg style="enable-background:new 0 0 15 15;top: 9px;;position:relative;left: 20px;width: 31px;height: 31px;" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+               viewBox="0 0 15 15" xml:space="preserve">
+            <g>
+              <path style="fill:#030104;" d="M10.5,1.674V4c1.215,0.912,2,2.364,2,4c0,2.762-2.238,5-5,5s-5-2.238-5-5c0-1.636,0.785-3.088,2-4
+                V1.674C2.135,2.797,0.5,5.208,0.5,8c0,3.866,3.134,7,7,7s7-3.134,7-7C14.5,5.208,12.865,2.797,10.5,1.674z"/>
+              <path style="fill:#030104;" d="M8.5,7.003V0.997C8.5,0.446,8.056,0,7.5,0c-0.553,0-1,0.453-1,0.997v6.006C6.5,7.554,6.944,8,7.5,8
+                C8.053,8,8.5,7.547,8.5,7.003z"/>
+            </g>
+            </svg>
+            <p style="line-height:30px;position:relative;top: 10px;left: 30px;width: 43px;height: 22px;text-align: left;font: normal normal medium 18px/30px Helvetica Neue;letter-spacing: 0px;color: #343A40;">Deconnexion</p>
+          </div>
+        </div>
         <div class="content">
+          <div class="row" [ngStyle]="{'display':'bloc','margin-bottom.px':20,'margin-left.px':50}">
+            <div class="col-sm-3 operation">
+              <button type="button" class="tn btn-success recherche">Soumis</button>
+            </div>
+            <div class="col-sm-3 operation">
+              <button type="button" class="tn btn-success recherche">Analysés</button>
+            </div>
+            <div class="col-sm-3 operation">
+              <button type="button" class="tn btn-success recherche">Acceptés</button>
+            </div>
+            <div class="col-sm-3 operation">
+              <button type="button" class="tn btn-success recherche">Rejété</button>
+            </div>
+          </div>
           <div class="row" [ngStyle]="{'display':'bloc'}">
             <div class="col-sm-3">
               <input class="operation form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -86,60 +120,53 @@
             </div>
           </div>
           <div class="d-grid gap-2 d-md-flex justify-content-md-end download">
-            <button class="btn btn-success me-md-2" type="button">PDF</button>
-            <button class="btn btn-success" type="button">XLS</button>
-          </div>
-          <div class="card bilan ">
-            <div class="card-header">Cumul</div>
-            <div class="card-body" style="display: inline-flex;">
-              <blockquote class="blockquote mb-0" style="width: 50%;">
-                <p style="text-align: left;font: normal normal normal 14px/30px Helvetica Neue;letter-spacing: 0px;color: #343A40;opacity: 1;">Jour</p>
-                <footer style="margin-left:50px;text-align: left;font: normal normal medium 24px/30px Helvetica Neue;letter-spacing: 0px;color: #008844;opacity: 1;">9500000</footer>
-              </blockquote>
-              <blockquote class="blockquote mb-0" style="width: 50%;">
-                <p style="text-align: left;font: normal normal normal 14px/30px Helvetica Neue;letter-spacing: 0px;color: #343A40;opacity: 1;">Globale</p>
-                <footer style="margin-left:50px;text-align: left;font: normal normal medium 24px/30px Helvetica Neue;letter-spacing: 0px;color: #008844;opacity: 1;">9500000</footer>
-              </blockquote>
-            </div>
+            <button style="width:60px;" class="btn btn-success me-md-2" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="21.597" height="20.268" viewBox="0 0 21.597 20.268">
+              <g id="cloud-computing" transform="translate(0.001 0)">
+                <path id="Tracé_694" data-name="Tracé 694" d="M17.44,5.438a6.757,6.757,0,0,0-13.253,0,4.73,4.73,0,0,0,.545,9.429H8.111a.676.676,0,1,0,0-1.351H4.732a3.379,3.379,0,1,1,.04-6.757.676.676,0,0,0,.672-.6,5.406,5.406,0,0,1,10.739,0,.716.716,0,0,0,.711.6,3.379,3.379,0,1,1,0,6.757H13.516a.676.676,0,1,0,0,1.351H16.9a4.73,4.73,0,0,0,.545-9.425Zm0,0" transform="translate(0 0)" fill="#fff"/>
+                <path id="Tracé_695" data-name="Tracé 695" d="M178.163,215.639l-1.713,1.713v-8.5a.676.676,0,1,0-1.351,0v8.5l-1.713-1.713a.676.676,0,0,0-.972.939l.017.017,2.866,2.866a.678.678,0,0,0,.218.146.668.668,0,0,0,.52,0,.676.676,0,0,0,.218-.146l2.866-2.866a.676.676,0,0,0-.939-.972Zm0,0" transform="translate(-164.96 -199.391)" fill="#fff"/>
+              </g>
+            </svg>PDF</button>
+            <button class="btn btn-success" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="21.597" height="20.268" viewBox="0 0 21.597 20.268">
+              <g id="cloud-computing" transform="translate(0.001 0)">
+                <path id="Tracé_694" data-name="Tracé 694" d="M17.44,5.438a6.757,6.757,0,0,0-13.253,0,4.73,4.73,0,0,0,.545,9.429H8.111a.676.676,0,1,0,0-1.351H4.732a3.379,3.379,0,1,1,.04-6.757.676.676,0,0,0,.672-.6,5.406,5.406,0,0,1,10.739,0,.716.716,0,0,0,.711.6,3.379,3.379,0,1,1,0,6.757H13.516a.676.676,0,1,0,0,1.351H16.9a4.73,4.73,0,0,0,.545-9.425Zm0,0" transform="translate(0 0)" fill="#fff"/>
+                <path id="Tracé_695" data-name="Tracé 695" d="M178.163,215.639l-1.713,1.713v-8.5a.676.676,0,1,0-1.351,0v8.5l-1.713-1.713a.676.676,0,0,0-.972.939l.017.017,2.866,2.866a.678.678,0,0,0,.218.146.668.668,0,0,0,.52,0,.676.676,0,0,0,.218-.146l2.866-2.866a.676.676,0,0,0-.939-.972Zm0,0" transform="translate(-164.96 -199.391)" fill="#fff"/>
+              </g>
+            </svg>XLS</button>
           </div>
           <table class="table" style="top: 110px;
-          position:relative;
-          left: 14px;
-          width: 1002px;
-
-          background: #FFFFFF 0% 0% no-repeat padding-box;
-          box-shadow: 0px 0px 5px #00000029;
-          border-radius: 10px;
-          opacity: 1;">
+            position:relative;
+            left: 14px;
+            width: 1002px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow: 0px 0px 5px #00000029;
+            border-radius: 10px;
+            opacity: 1;">
             <thead>
               <tr>
-                <th scope="col">date</th>
-                <th scope="col">Nom</th>
-                <th scope="col">Prenom</th>
-                <th scope="col">N.Compte</th>
-                <th scope="col">Montant</th>
-                <th scope="col">Frais transaction</th>
-                <th scope="col">Id transcation</th>
-                <th scope="col">Sens(credit)</th>
+                <th scope="col">Details</th>
+                <th scope="col">Dossier</th>
+                <th scope="col">Matricule</th>
+                <th scope="col">Nom et Prenoms</th>
+                <th scope="col">Date et Heure</th>
+                <th scope="col">Etat</th>
+                <th scope="col">Date Modification Etat</th>
+                <th scope="col">Date Modification Statut</th>
+                <th scope="col">Statut</th>
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
-                <td>@twitter</td>
+              <tr *ngFor="let pret of prets, let i=index">
+                <th (click)="detail(i)" scope="row"> <img (click)="detail(i)" style="background-color:green" src="assets/detail.png" alt=""></th>
+                <td>{{pret.dossier_num}}</td>
+                <td>{{pret.matricule}}</td>
+                <td>{{pret.nom}} {{pret.prenoms}}</td>
+                <td>{{pret.date}} {{pret.heure}}</td>
+                <td>{{pret.etat}}</td>
+                <td>{{pret.date_modif_etat}}</td>
+                <td>{{pret.date_modif_status}}</td>
+                <td *ngIf="pret.status==true" style="background-color:#008844">Acceptée</td>
+                <td *ngIf="pret.status==undefined"  style="background-color:#EE9136">En cours</td>
+                <td *ngIf="pret.status==false" style="background-color:#EE0202">Refusée</td>
               </tr>
             </tbody>
           </table>

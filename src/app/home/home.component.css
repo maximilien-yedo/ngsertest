@@ -4,7 +4,6 @@ mat-sidenav{
   border: none;
   color: white;
 }
-
 mat-sidenav-content
 {
   background-color: white;
@@ -119,4 +118,7 @@ mat-sidenav ul li:hover{
 
   /* UI Properties */
   opacity: 1;
+}
+.content{
+  z-index: 0;
 }

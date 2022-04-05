@@ -10,6 +10,9 @@ mat-sidenav-content
   background-color: white;
   height: 100vh;
 }
+.row{
+  margin-right: 0px;
+}
 .img_logo{
   /* Layout Properties */
   position: relative;
@@ -78,9 +81,9 @@ mat-sidenav ul li:hover{
 }
 .operation{
   position: relative;
+  left: 20px;
   top: 34px;
-  margin-left: 10px;
-  width: 222px;
+  width: 220px;
   height: 55px;
 
   /* UI Properties */
@@ -127,9 +130,6 @@ mat-sidenav ul li:hover{
 .recherche{
   width:200px;
   height: 55px;
-
-  /* UI Properties */
-
   background: #008844 0% 0% no-repeat padding-box;
   border-radius: 5px;
   opacity: 1;
